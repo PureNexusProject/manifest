@@ -26,6 +26,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <project path="manifest" name="manifest" remote="pure" revision="o" />
+  <project path="vendor/pure" name="android_vendor_pure" remote="pure" revision="o" />
 
   <!-- AOSP Repo's -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
