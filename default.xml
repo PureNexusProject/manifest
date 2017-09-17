@@ -30,6 +30,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="device/google/marlin" name="android_device_google_marlin" groups="device,marlin" remote="pure" revision="o" />
   <project path="device/huawei/angler" name="android_device_huawei_angler" groups="device,angler,broadcom_pdk,pdk" remote="pure" revision="o" />
   <project path="device/lge/bullhead" name="android_device_lge_bullhead" groups="device,bullhead,pdk" remote="pure" revision="o" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="o" />
@@ -40,10 +41,12 @@
   </project>
 
   <!-- Kernel Source -->
+  <project path="kernel/google/marlin" name="android_kernel_google_marlin" groups="device,marlin" remote="pure" revision="o" />
   <project path="kernel/huawei/angler" name="android_kernel_huawei_angler" groups="device,angler,broadcom_pdk,pdk" remote="pure" revision="o" />
   <project path="kernel/lge/bullhead" name="android_kernel_lge_bullhead" groups="device,bullhead,pdk" remote="pure" revision="o" />
 
   <!-- Proprietary Vendors -->
+  <project path="vendor/google_devices" name="proprietary_vendor_google_devices" remote="pure" revision="o" />
   <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="pure" revision="o" />
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="pure" revision="o" />
 
@@ -67,8 +70,6 @@
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,marlin,pdk" />
   <project path="device/google/dragon" name="device/google/dragon" groups="device,dragon,pdk" />
   <project path="device/google/dragon-kernel" name="device/google/dragon-kernel" groups="device,dragon,pdk" clone-depth="1" />
-  <project path="device/google/marlin" name="device/google/marlin" groups="device,marlin" />
-  <project path="device/google/marlin-kernel" name="device/google/marlin-kernel" groups="device,marlin" clone-depth="1" />
   <project path="device/google/vrservices" name="device/google/vrservices" groups="pdk" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
