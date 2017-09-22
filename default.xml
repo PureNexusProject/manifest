@@ -36,7 +36,7 @@
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="o" />
   <project path="frameworks/support" name="android_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="o" />
   <project path="manifest" name="manifest" remote="pure" revision="o" />
-  <project path="vendor/gapps" name="vendor_gapps" remote="gitlab" revision="o" />
+  <project path="vendor/gapps" name="vendor_gapps" clone-depth="1" remote="gitlab" revision="o" />
   <project path="vendor/pure" name="android_vendor_pure" remote="pure" revision="o">
     <linkfile src="build.sh" dest="build.sh" />
   </project>
