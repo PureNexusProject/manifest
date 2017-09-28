@@ -35,6 +35,7 @@
   <project path="device/lge/bullhead" name="android_device_lge_bullhead" groups="device,bullhead,pdk" remote="pure" revision="o" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="o" />
   <project path="frameworks/support" name="android_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="o" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="pure" revision="o" />
   <project path="manifest" name="manifest" remote="pure" revision="o" />
   <project path="vendor/gapps" name="vendor_gapps" clone-depth="1" remote="gitlab" revision="o" />
   <project path="vendor/pure" name="android_vendor_pure" remote="pure" revision="o">
@@ -434,7 +435,6 @@
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" groups="apps_stk,pdk-fs" />
   <project path="packages/apps/StorageManager" name="platform/packages/apps/StorageManager" groups="pdk-fs" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" groups="pdk-fs" />
