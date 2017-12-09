@@ -16,6 +16,7 @@
            sync-j="4" />
 
   <!-- Pure Repo's -->
+  <project path="build/kati" name="android_build_kati" groups="pdk,tradefed" remote="pure" revision="o-mr1" />
   <project path="manifest" name="manifest" remote="pure" revision="o-mr1" />
 
   <!-- AOSP Repo's -->
@@ -29,7 +30,6 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
-  <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
