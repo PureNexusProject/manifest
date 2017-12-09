@@ -18,6 +18,7 @@
   <!-- Pure Repo's -->
   <project path="build/kati" name="android_build_kati" groups="pdk,tradefed" remote="pure" revision="o-mr1" />
   <project path="manifest" name="manifest" remote="pure" revision="o-mr1" />
+  <project path="frameworks/support" name="android_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="o-mr1" />
 
   <!-- AOSP Repo's -->
   <project path="build/make" name="platform/build" groups="pdk" >
@@ -394,7 +395,6 @@
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
-  <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
