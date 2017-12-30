@@ -24,7 +24,8 @@
     <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
-  </project>  <project path="build/kati" name="android_build_kati" groups="pdk,tradefed" remote="pure" revision="o-mr1" />
+  </project>
+  <project path="build/kati" name="android_build_kati" groups="pdk,tradefed" remote="pure" revision="o-mr1" />
   <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="pure" revision="o-mr1" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
